@@ -1,7 +1,8 @@
 # Lucky Birthday
+This app will tell you your birthday is lucky or not
 
-## This app will tell you your birthday is lucky or not
+## Tech Stack
+Built using HTML,CSS, Javascript
 
-### Built using HTML,CSS, Javascript
-
-<!-- ![birthday]() -->
+## Image
+![Project](https://github.com/yashgupta18/birthday/blob/main/birthday.png)
