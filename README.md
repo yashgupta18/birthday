@@ -1,5 +1,7 @@
 # Lucky Birthday
 
-## this app will tell you your birthday is lucky or not
+## This app will tell you your birthday is lucky or not
 
-![birthday]()
+### Built using HTML,CSS, Javascript
+
+<!-- ![birthday]() -->
