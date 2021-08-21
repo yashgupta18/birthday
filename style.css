@@ -1,0 +1,141 @@
+body {
+  background-image: url("./images/birthday-background.jpeg");
+  /* background-repeat:no-repeat; */
+  background-size: cover;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #ee29a3;
+}
+
+/* privacy policy */
+@keyframes top {
+  to {
+    top: -50px;
+  }
+}
+.privacy-policy {
+  background-color: #7bc51a;
+  color: white;
+  font-size: 1em;
+  padding: 0.7rem;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  animation-name: top;
+  animation-duration: 4s;
+  animation-delay: 120s;
+  animation-fill-mode: forwards;
+}
+.close {
+  position: absolute;
+  color: white;
+  cursor: pointer;
+  left: 90%;
+  animation-name: top;
+  animation-duration: 4s;
+  animation-delay: 10s;
+  animation-fill-mode: forwards;
+}
+
+/*main*/
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+/* container */
+.container {
+  display: flex;
+  background-color: #080808;
+  padding: 0.4rem;
+}
+
+/*left*/
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary-color);
+  padding: 2rem;
+  width: 400px;
+  color: #0b0d68;
+}
+.left h1 {
+  text-align: center;
+}
+input {
+  max-width: 200px;
+}
+
+/* right */
+.right {
+  display: flex;
+  flex-direction: column;
+  background-color: #7b55d4;
+  width: 400px;
+  align-items: center;
+  padding: 2rem;
+  justify-content: center;
+}
+
+/*input*/
+
+input {
+  padding: 0.4rem 0.6rem;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+/*birthday date heading*/
+
+.birthday-date-heading {
+  margin-bottom: 10px;
+}
+
+/*button*/
+
+button {
+  background-color: rgb(255, 136, 0);
+  color: #080808;
+  padding: 0.4rem 1.1rem;
+  margin-top: 15px;
+}
+
+.starter-box {
+  display: block;
+}
+.starter-box img {
+  margin-left: 40px;
+}
+
+.lucky-box {
+  display: none;
+}
+.sad-box {
+  display: none;
+}
+.sad-box img {
+  margin-left: 40px;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    flex-direction: column-reverse;
+  }
+  .main {
+    width: 100vw;
+  }
+}
