@@ -1,6 +1,5 @@
 body {
   background-image: url("./images/birthday-background.jpeg");
-  /* background-repeat:no-repeat; */
   background-size: cover;
   margin: 0;
   font-family: sans-serif;
@@ -26,9 +25,9 @@ body {
   font-size: 1em;
   padding: 0.7rem;
   position: absolute;
-  top: 0px;
-  left: 0;
-  right: 0;
+  top: 10px;
+  left: 5rem;
+  right: 5rem;
   text-align: center;
   animation-name: top;
   animation-duration: 4s;
@@ -39,7 +38,7 @@ body {
   position: absolute;
   color: white;
   cursor: pointer;
-  left: 90%;
+  right: 6rem;
   animation-name: top;
   animation-duration: 4s;
   animation-delay: 10s;
@@ -58,7 +57,7 @@ main {
 /* container */
 .container {
   display: flex;
-  background-color: #080808;
+  /* background-color: #080808; */
   padding: 0.4rem;
 }
 
@@ -80,17 +79,6 @@ input {
   max-width: 200px;
 }
 
-/* right */
-.right {
-  display: flex;
-  flex-direction: column;
-  background-color: #7b55d4;
-  width: 400px;
-  align-items: center;
-  padding: 2rem;
-  justify-content: center;
-}
-
 /*input*/
 
 input {
@@ -108,8 +96,8 @@ input {
 /*button*/
 
 button {
-  background-color: rgb(255, 136, 0);
-  color: #080808;
+  background-color: rgb(26, 112, 59);
+  color: #ffffff;
   padding: 0.4rem 1.1rem;
   margin-top: 15px;
 }
