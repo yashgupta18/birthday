@@ -2,7 +2,7 @@ body {
   background-image: url("./images/birthday-background.jpeg");
   background-size: cover;
   margin: 0;
-  font-family: sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 * {
@@ -10,7 +10,7 @@ body {
 }
 
 :root {
-  --primary-color: #ee29a3;
+  --primary-color: #971a67;
 }
 
 /* privacy policy */
@@ -20,23 +20,19 @@ body {
   }
 }
 .privacy-policy {
-  background-color: #7bc51a;
-  color: white;
+  background-color: #fffb00;
+  color: #971a67;
   font-size: 1em;
   padding: 0.7rem;
   position: absolute;
-  top: 10px;
+  bottom: 0px;
   left: 5rem;
   right: 5rem;
   text-align: center;
-  animation-name: top;
-  animation-duration: 4s;
-  animation-delay: 120s;
-  animation-fill-mode: forwards;
 }
 .close {
   position: absolute;
-  color: white;
+  color: #2600ff;
   cursor: pointer;
   right: 6rem;
   animation-name: top;
@@ -57,12 +53,11 @@ main {
 /* container */
 .container {
   display: flex;
-  /* background-color: #080808; */
   padding: 0.4rem;
 }
 
 /*left*/
-.left {
+.c1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -70,9 +65,10 @@ main {
   background-color: var(--primary-color);
   padding: 2rem;
   width: 400px;
-  color: #0b0d68;
+  color: rgb(150, 173, 248);
+  border-rgb(255, 255, 255) 3rem;
 }
-.left h1 {
+.c1 h1 {
   text-align: center;
 }
 input {
@@ -96,12 +92,20 @@ input {
 /*button*/
 
 button {
+  border-radius: 0.5rem;
   background-color: rgb(26, 112, 59);
   color: #ffffff;
+  width: 5rem;
+  height: 3rem;
   padding: 0.4rem 1.1rem;
   margin-top: 15px;
+  border-color: #ffffff;
+  border-width: 0.3rem;
 }
-
+button:hover {
+  background-color: rgb(0, 77, 102);
+  color: #ffffff;
+}
 .starter-box {
   display: block;
 }
