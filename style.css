@@ -58,6 +58,7 @@ main {
 
 /*left*/
 .c1 {
+  border:0.5rem solid darkorange;
   display: flex;
   flex-direction: column;
   justify-content: center;
